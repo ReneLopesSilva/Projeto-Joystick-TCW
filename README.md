@@ -1,6 +1,5 @@
 # Projeto-Joystick-TCW
-Projeto de automação para joystick de cadeira de rodas elétrica, controlado por aparelho smartphone.
-Esse projeto está sendo desenvolvido como parte da disciplina Technological Craftsmanship Works (ELN8DI).
+Projeto desenvolvido como parte da disciplina Technological Craftsmanship Works (ELN8DI).
 
 ## Descrição do Projeto
 
@@ -35,14 +34,14 @@ Principais componentes:
 * ESP32 DevKit
 * Drivers TMC2209
 * Motores de passo NEMA 17 Pancake
-* Sensores indutivos NJK-5001C
+* Sensores de Efeito Hall NJK-5001C
 * Bateria de lítio 12V com BMS
 * Fusível de proteção
 * Botão de emergência
 
 ### Sistema de Comunicação
 
-A comunicação entre o aplicativo móvel e o dispositivo embarcado é realizada via Bluetooth. Os comandos enviados pelo usuário são interpretados pelo ESP32 e convertidos em movimentos físicos do joystick, permitindo controlar a direção e velocidade da cadeira.
+A comunicação entre o aplicativo móvel e o dispositivo embarcado é realizada via Bluetooth. Os comandos enviados pelo usuário são interpretados pelo ESP32 e convertidos em movimentos físicos do joystick, permitindo controlar a direção da cadeira.
 
 ## Tecnologias Utilizadas
 
@@ -60,9 +59,9 @@ A comunicação entre o aplicativo móvel e o dispositivo embarcado é realizada
 
 ### Desenvolvimento Mecânico
 
-* Modelagem CAD
-* Impressão 3D
-* Prototipagem rápida
+* Modelagem CAD (Solidworks)
+* Impressão 3D (PLA)
+* Prototipagem rápida (Corte e dobra de chapas de aço)
 
 ## Segurança
 
@@ -87,7 +86,7 @@ Como o projeto está relacionado ao controle de um equipamento de mobilidade, fo
 │
 ├── CAD/
 │   ├── Modelos_3D/
-│   └── STL/
+│   └── STEP e STL/
 │
 ├── Eletronica/
 │   ├── Esquematicos/
